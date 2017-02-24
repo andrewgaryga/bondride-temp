@@ -29,7 +29,7 @@ header {
 	height: 233px;
 	/*background: #fff url(../img/bg.png) 0 0 no-repeat 252px 233px;*/
 	padding-bottom: 30px;
-	background: url("../img/bg.png");
+	background: url("../img/bg-aqua.png");
 /*	background-size: 252px 233px;*/
 	background-repeat: no-repeat;
 	padding-top: 40px;
@@ -229,7 +229,7 @@ section#requirements h2 {
 	/*font-family: "Rubik";*/
 	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
-	padding-bottom: 60px;
+	padding-bottom: 20px;
 	text-align: center;
 	padding-left: 10px;
 }
@@ -237,7 +237,7 @@ section#requirements h2 {
 section#requirements {
 	/*background-color: #e2e7ed;*/
 	padding-bottom: 60px;
-	padding-top: 60px;
+	padding-top: 20px;
 }
 
 section#requirements ul {
@@ -293,27 +293,6 @@ footer li a, a:hover{
 	padding-bottom: 10px;
 }
 
-@media(min-width:767px) {
-    section#requirements ul {
-    	padding-left: 0;
-    }
-    .contact-wrap img {
-    	display: inline-block;
-    }
-    .social-buttons {
-    	text-align: right;
-    }
-    .horiontal-list {
-    	text-align: left;
-    }
-    .copyright {
-    	text-align: left;
-    }
-    section#requirements h2 {
-    	text-align: left;
-    }
-
-}
 
 .dot {
   -webkit-border-radius: 50px;
@@ -434,3 +413,85 @@ footer li a, a:hover{
    padding: 0 25px 0 25px;
    max-width: 550px;
    vertical-align: middle; }
+
+
+@media(min-width:767px) {
+  section#requirements ul {
+  	padding-left: 0;
+  }
+  .contact-wrap img {
+  	display: inline-block;
+  }
+  .social-buttons {
+  	text-align: right;
+  }
+  .horiontal-list {
+  	text-align: left;
+  }
+  .copyright {
+  	text-align: left;
+  }
+  section#requirements h2 {
+  	text-align: left;
+  }
+
+}
+@media(max-width:767px) {
+	.copyright {
+	    text-align: left;
+	}
+	.social-buttons {
+	    text-align: right;
+	}
+	h2 {
+		font-size: 24px;
+	}
+
+}
+@media (max-width: 532px) {
+	.no-gutter > [class*='col-'] {
+	  padding-right: 5px;
+	  padding-left: 5px; }
+	.car-sprite-aqua {
+		width: 285px;
+		height: 131px;
+		background: url("../img/car-sprite-aqua-xs.png");
+	}
+
+	.car-sprite-red {
+		width: 285px;
+		height: 131px;
+		background: url("../img/car-sprite-red-xs.png");
+	}
+
+	.car-sprite-blue {
+		width: 285px;
+		height: 131px;
+		background: url("../img/car-sprite-blue-xs.png");
+	}
+	.cloud-container {
+	    width: 226px;
+	    height: 50px;
+	}
+	.cloud-container .cloud-text {
+	    font-size: 14px;
+	}
+	.car-header {
+	    font-size: 14px;
+	    top: 19px;
+	    left: 50px;
+	}
+	.box-text {
+	  font-size: 10px; }
+
+	.box-title {
+	  font-size: 10px; }
+
+	.arrow-box {
+	  margin-bottom: 0; 
+	  height: 82px;
+	}
+	.image-box {
+	  width: 70px;
+	  margin: 0 auto 0 auto; }
+}
