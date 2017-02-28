@@ -248,7 +248,7 @@ section#requirements ul {
 
 section#requirements li {
 	color: #68696b;
-	font-size: 20px;
+	font-size: 14px;
 }
 
 /*footer*/
@@ -307,7 +307,7 @@ footer li a, a:hover{
 .form-control:-ms-input-placeholder { color: white; }*/
 
 .padding-list {
-	margin-left: 170px;
+	margin-left: 40px;
 }
 .dot {
   -webkit-border-radius: 50px;
@@ -449,9 +449,18 @@ footer li a, a:hover{
   section#requirements h2 {
   	text-align: left;
   }
+  .padding-list {
+  	margin-left: 170px;
+  }
+  section#requirements li {
+  	font-size: 20px;
+  }
 
 }
 @media(max-width:767px) {
+	section#cars h2 {
+	    padding-bottom: 0px;
+	}
 	.copyright {
 	    text-align: left;
 	}
@@ -459,7 +468,44 @@ footer li a, a:hover{
 	    text-align: right;
 	}
 	h2 {
-		font-size: 24px;
+		font-size: 18px;
+	}
+	.page-title {
+	    font-size: 20px;
+	    margin: -16px auto 15px auto;
+	}
+	section#how {
+	    padding-bottom: 10px;
+	    padding-top: 10px;
+	}
+	section#requirements {
+	    padding-bottom: 20px;
+	}
+	.tri-cloud-container {
+	    height: 68px;
+	}
+	section#cars {
+	    padding-top: 15px;
+	}
+	.logo-container {
+		background: url("../img/bg-aqua-xs.png");
+		width: 153px;
+		height: 142px;
+	}
+	.logo-container > img {
+		top: 11px;
+		left: 12px;
+		width: 90%;
+	}
+	header {
+	    height: 147px;
+	}
+	.image-box {
+	    height: 100px;
+	}
+	.arrow_box {
+	    padding: 5px;
+	    height: 80px;
 	}
 
 }
@@ -504,9 +550,10 @@ footer li a, a:hover{
 
 	.arrow-box {
 	  margin-bottom: 0; 
-	  height: 82px;
+	  height: 65px;
 	}
 	.image-box {
 	  width: 70px;
-	  margin: 0 auto 0 auto; }
+	  margin: 0 auto 0 auto; 
+	}
 }
