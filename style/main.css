@@ -19,7 +19,7 @@ html {
 
 header {
 	background-color: #31333F;
-	height: 237px;
+	height: 207px;
 }
 
 .logo-container {
@@ -28,8 +28,8 @@ header {
 	width: 252px;
 	height: 233px;
 	/*background: #fff url(../img/bg.png) 0 0 no-repeat 252px 233px;*/
-	padding-bottom: 30px;
-	background: url("../img/bg-aqua.png");
+	/*padding-bottom: 30px;*/
+	/*background: url("../img/bg-aqua.png");*/
 /*	background-size: 252px 233px;*/
 	background-repeat: no-repeat;
 	padding-top: 40px;
@@ -152,7 +152,7 @@ section#cars h2 {
 }
 
 .tri-cloud-container .tri-cloud-text {
-    font-size: 18px;
+    font-size: 20px;
     position: absolute;
     top: 27px;
     left: 86px;
@@ -502,7 +502,7 @@ footer li a, a:hover{
 		width: 90%;
 	}
 	header {
-	    height: 147px;
+	    height: 120px;
 	}
 	.image-box {
 	    height: 100px;
@@ -513,15 +513,27 @@ footer li a, a:hover{
 	}
 
 }
-@media (max-width: 685px) {
+@media (max-width: 533px) {
 	.arrow_box {
-	    height: 80px;
+	    height: 45px;
+	}
+}
+@media (max-width: 419px) {
+	.arrow_box {
+	    height: 50px;
 	}
 }
 @media (max-width: 532px) {
+	.arrow-box {
+	  margin-bottom: 0; 
+	  height: 65px;
+	  padding: 5px;
+	  height: 40px;
+	}
 	.no-gutter > [class*='col-'] {
 	  padding-right: 5px;
-	  padding-left: 5px; }
+	  padding-left: 5px; 
+	}
 	.car-sprite-aqua {
 		width: 285px;
 		height: 131px;
@@ -556,13 +568,6 @@ footer li a, a:hover{
 
 	.box-title {
 	  font-size: 10px; }
-
-	.arrow-box {
-	  margin-bottom: 0; 
-	  height: 65px;
-	  padding: 5px;
-	  height: 40px;
-	}
 	.image-box {
 	  width: 70px;
 	  margin: 0 auto 0 auto; 
@@ -571,9 +576,14 @@ footer li a, a:hover{
 	    font-size: 11px;
 	}
 }
-
 @media (max-width: 420px) {
 	.arrow-box {
 	  height: 50px;
 	}
 }
+
+/*@media (min-device-width : 375px) and (max-device-width : 667px) and (device-pixel-ratio : 2) {
+	.arrow-box {
+	  height: 60px;
+	}
+}*/
