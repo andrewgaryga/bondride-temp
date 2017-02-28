@@ -43,7 +43,7 @@ header {
 
 /*Cars section*/
 section#cars {
-	background-image: url(../img/bg-cloud.png);
+	background-image: url(../img/bg-cloud3.png);
 	background-repeat: no-repeat;
 	background-position: top left;
 	/*background-color: #E2E7ED;*/
@@ -57,9 +57,10 @@ section#cars h2 {
 	/*font-family: "Rubik";*/
 	font-family: "Open Sans", sans-serif;
 	/*font-weight: 700;*/
-	/*color: #329acd;*/
-	color: #53697C;
-	padding-bottom: 55px;
+	color: #329acd;
+	/*color: #53697C;*/
+	/*padding-bottom: 55px;*/
+	padding-bottom: 15px;
 }
 
 .car-header {
@@ -139,7 +140,7 @@ section#cars h2 {
     position: relative;
     /*display: inline-block;*/
     margin: auto;
-    background-image: url("../img/tri-cloud.png");
+    /*background-image: url("../img/tri-cloud.png");*/
     width: 320px;
     height: 128px;
     font-size: 18px;
@@ -293,7 +294,21 @@ footer li a, a:hover{
 	padding-bottom: 10px;
 }
 
+input.my-form, .form-control {
+	background-color: #43b5ad;
+	border: none;
+	color: white !important;
+	font-size: 16px;
+	margin-top: 8px;
+}
+.form-control::-webkit-input-placeholder { color: white; }
+.form-control:-moz-placeholder { color: white; }
+.form-control::-moz-placeholder { color: white; }
+.form-control:-ms-input-placeholder { color: white; }
 
+.padding-list {
+	margin-left: 170px;
+}
 .dot {
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
