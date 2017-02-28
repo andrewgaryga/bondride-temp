@@ -492,7 +492,7 @@ footer li a, a:hover{
 	    padding-top: 15px;
 	}
 	.logo-container {
-		background: url("../img/bg-aqua-xs.png");
+		/*background: url("../img/bg-aqua-xs.png");*/
 		width: 153px;
 		height: 142px;
 	}
