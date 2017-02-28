@@ -43,7 +43,7 @@ header {
 
 /*Cars section*/
 section#cars {
-	background-image: url(../img/bg-cloud-5.png);
+	/*background-image: url(../img/bg-cloud-5.png);*/
 	background-repeat: no-repeat;
 	background-position: top right;
 	/*background-color: #E2E7ED;*/
@@ -131,9 +131,13 @@ section#cars h2 {
     font-size: 16px;
     position: absolute;
     top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    min-width: 220px;
+    font-weight: 100;
+    line-height: 200%;
 }
 
 .tri-cloud-container {
@@ -509,6 +513,11 @@ footer li a, a:hover{
 	}
 
 }
+@media (max-width: 685px) {
+	.arrow_box {
+	    height: 80px;
+	}
+}
 @media (max-width: 532px) {
 	.no-gutter > [class*='col-'] {
 	  padding-right: 5px;
@@ -551,9 +560,17 @@ footer li a, a:hover{
 	.arrow-box {
 	  margin-bottom: 0; 
 	  height: 65px;
+	  padding: 5px;
+	  height: 40px;
 	}
 	.image-box {
 	  width: 70px;
 	  margin: 0 auto 0 auto; 
+	}
+}
+
+@media (max-width: 420px) {
+	.arrow-box {
+	  height: 50px;
 	}
 }
