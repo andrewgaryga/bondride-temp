@@ -567,6 +567,9 @@ footer li a, a:hover{
 	  width: 70px;
 	  margin: 0 auto 0 auto; 
 	}
+	.cloud-container .cloud-text {
+	    font-size: 11px;
+	}
 }
 
 @media (max-width: 420px) {
