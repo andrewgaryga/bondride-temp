@@ -294,7 +294,7 @@ footer li a, a:hover{
 	padding-bottom: 10px;
 }
 
-input.my-form, .form-control {
+/*input.my-form, .form-control {
 	background-color: #43b5ad;
 	border: none;
 	color: white !important;
@@ -304,7 +304,7 @@ input.my-form, .form-control {
 .form-control::-webkit-input-placeholder { color: white; }
 .form-control:-moz-placeholder { color: white; }
 .form-control::-moz-placeholder { color: white; }
-.form-control:-ms-input-placeholder { color: white; }
+.form-control:-ms-input-placeholder { color: white; }*/
 
 .padding-list {
 	margin-left: 170px;
